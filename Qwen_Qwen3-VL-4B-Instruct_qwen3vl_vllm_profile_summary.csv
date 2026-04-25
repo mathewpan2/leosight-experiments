@@ -1,0 +1,6 @@
+experiment,use_continuous_batching,enable_prefix_caching,use_visual_token_compression,images_count,queries_per_image,runs_per_query,total_samples,mean_elapsed_s,stdev_elapsed_s,mean_output_tok_per_s,mean_first_token_latency_s,requests_per_call
+cb_prefix_vtc,True,True,True,10,4,3,10,1.115067806188017,0.010009902253725106,416.60845072304573,,4
+continuous_batching_only,True,False,False,10,4,3,10,1.7137383587658406,0.002970899913774213,276.4116995649724,,4
+prefix_caching_only,True,True,False,10,4,3,10,4.0677744012326,0.07184000470170997,115.81107897233574,,4
+visual_token_compression_only,True,False,True,10,4,3,10,4.098704818822443,0.061406557310085944,113.79012866996197,,4
+baseline,True,False,False,10,4,3,10,4.848044824320823,0.30490639314375395,97.35397289376239,,4
